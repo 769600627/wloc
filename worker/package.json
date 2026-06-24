@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "pages:dev": "bunx wrangler pages dev --port 8787",
+    "pages:deploy": "bunx wrangler pages deploy",
+    "workers:dev": "bunx wrangler dev",
+    "workers:deploy": "bunx wrangler deploy --minify -c wrangler.workers.jsonc"
+  },
+  "dependencies": {
+    "hono": "^4.10.6"
+  }
+}
